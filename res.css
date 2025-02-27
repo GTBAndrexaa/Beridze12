@@ -1,0 +1,154 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+    flex-direction: row;
+}
+.logo{
+    display: flex;
+    margin-right: auto;
+    height: 60px;
+    width: 300px;
+    align-items:center;
+    margin-left: 5%;
+}
+.logo1{
+   
+    width: 10%;
+    background-color: black;
+    height: 30px;
+}
+.logo2{
+    
+    height: 60px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lg1,.lg2{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lg1{
+    font-size: 25px;
+}
+.lg2{
+    font-size: 15px;
+}
+.elements{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 5%;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.us{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.el1{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main1{
+    margin-top: 4%;
+    height: 400px;
+    background-color: #EF9c83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+.rsvpd{
+    border: 2px solid black;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.rvp{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    
+}
+.rsvpd:hover{
+    color: black;
+    background-color: pink;
+}
+.main2{
+    height: 600px;
+    margin-top: 2%;
+    width: 100%;
+}
+.main3{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ic{
+    display: flex;
+    gap: 20px;
+}
+i{
+    font-size: 20px;
+}
+.ft1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 500px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        width: 90%;
+        padding: 20px;
+    }
+    .main2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ft1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+
+    
+}
